@@ -14,7 +14,7 @@ document.getElementById("submitVal1").onclick = function(){
         document.getElementById("div2").style.display="block";
     }
     // document.getElementById("lable2").innerHTML=username+ ", बोलो जय माता की...";
-    document.getElementById("lable2").innerHTML=username+ ", ...आओ, होली खेलें";
+    document.getElementById("lable2").innerHTML=username+ ", ...आपको होली की शुभकामनाये..";
     // console.log(username);
 }
 
