@@ -32,6 +32,7 @@ document.getElementById("submitVal1").onclick = async function(){
     username=document.getElementById("text1").value;
     // console.log(username);
     document.getElementById("div1").style.display = "none"; //div1 will be hidden on submit of value
+    document.getElementById("div12").style.display = "none";
     if(document.getElementById("div2").style.display == "none"){
         document.getElementById("div2").style.display="block";
     }
@@ -42,8 +43,18 @@ document.getElementById("submitVal1").onclick = async function(){
 
 //On click of Back Button Div 1 will be displayed
 document.getElementById("submitVal2").onclick = function(){
+    
     if(document.getElementById("div1").style.display == "none"){
         document.getElementById("div1").style.display="block";
     }
+    if(document.getElementById("div12").style.display == "none"){
+    document.getElementById("div12").style.display="block";
+    }
+    document.getElementById("lable3").innerHTML="";
+    document.getElementById("lable4").innerHTML="";
+    document.getElementById("lable5").innerHTML="";
+    document.getElementById("lable6").innerHTML="";
+    
+
     document.getElementById("div2").style.display = "none";
 }
