@@ -62,5 +62,8 @@ document.getElementById("submitVal2").onclick = function(){
     document.getElementById("lable6").innerHTML="";
     
 
+
     document.getElementById("div2").style.display = "none";
+
+window.location.reload()
 }
