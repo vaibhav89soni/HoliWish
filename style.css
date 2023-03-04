@@ -2,13 +2,13 @@ body {
     background-color: rgb(228, 218, 223);
   }
   h1 {
-    color: rgb(4, 0, 255);
+    color: blue;
   }
   h2 {
-    color: rgb(255, 0, 212);
+    color: palevioletred;
   }
   h3 {
-    color: rgb(255, 51, 0);
+    color: rgb(231, 108, 13);
   }
   p {
     color: red;
