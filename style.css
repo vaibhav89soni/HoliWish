@@ -1,5 +1,9 @@
 body {
-    background-color: rgb(228, 218, 223);
+    /* background-color: rgb(228, 218, 223); */
+    background-image: url('backgroundholi.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
   }
   h1 {
     color: blue;
@@ -10,6 +14,23 @@ body {
   h3 {
     color: rgb(231, 108, 13);
   }
+  h6 {
+    color: rgb(13, 111, 231);
+  }
+  h4 {
+    color: rgb(13, 111, 231);
+  }
   p {
     color: red;
+  }
+  
+  .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
   }
