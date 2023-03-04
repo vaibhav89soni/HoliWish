@@ -8,7 +8,11 @@ async function sleep(seconds){
 document.getElementById("div2").style.display = "none";
 
 //On click of Back Button Div 2 will be displayed
+
 document.getElementById("submitVal1").onclick = async function(){
+   
+    document.getElementById("div1").style.display = "none"; 
+   
     //New message starts
       for(count=1;count<5;count++){
         
@@ -31,7 +35,7 @@ document.getElementById("submitVal1").onclick = async function(){
     //Message Ends
     username=document.getElementById("text1").value;
     // console.log(username);
-    document.getElementById("div1").style.display = "none"; //div1 will be hidden on submit of value
+    // document.getElementById("div1").style.display = "none"; //div1 will be hidden on submit of value
     document.getElementById("div12").style.display = "none";
     if(document.getElementById("div2").style.display == "none"){
         document.getElementById("div2").style.display="block";
@@ -40,6 +44,8 @@ document.getElementById("submitVal1").onclick = async function(){
     document.getElementById("lable2").innerHTML=username+ ", ...आपको होली की शुभकामनाये..";
     // console.log(username);
 }
+
+
 
 //On click of Back Button Div 1 will be displayed
 document.getElementById("submitVal2").onclick = function(){
