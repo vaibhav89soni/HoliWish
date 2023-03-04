@@ -1,5 +1,4 @@
 let username;
-let username;
 let count;
 // console.log(username);
 async function sleep(seconds){
