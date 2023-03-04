@@ -41,11 +41,9 @@ document.getElementById("submitVal1").onclick = async function(){
         document.getElementById("div2").style.display="block";
     }
     // document.getElementById("lable2").innerHTML=username+ ", बोलो जय माता की...";
-    document.getElementById("lable2").innerHTML=username+ ", ...आपको होली की शुभकामनाये..";
+    document.getElementById("lable2").innerHTML=" नमस्ते "+username+ ", आपको होली की हार्दिक शुभकामनाये..";
     // console.log(username);
 }
-
-
 
 //On click of Back Button Div 1 will be displayed
 document.getElementById("submitVal2").onclick = function(){
@@ -62,8 +60,7 @@ document.getElementById("submitVal2").onclick = function(){
     document.getElementById("lable6").innerHTML="";
     
 
-
     document.getElementById("div2").style.display = "none";
 
-window.location.reload()
+  window.location.reload()
 }
