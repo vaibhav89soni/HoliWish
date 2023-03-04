@@ -1,12 +1,35 @@
 let username;
-
+let username;
+let count;
 // console.log(username);
-
+async function sleep(seconds){
+    return new Promise(resolve => setTimeout(resolve,seconds*1000));
+}
 //Div 2 is hidden 
 document.getElementById("div2").style.display = "none";
 
 //On click of Back Button Div 2 will be displayed
-document.getElementById("submitVal1").onclick = function(){
+document.getElementById("submitVal1").onclick = async function(){
+    //New message starts
+      for(count=1;count<5;count++){
+        
+        console.log(count);
+        if(count == 1 ){
+        document.getElementById("lable3").innerHTML=" खूब उड़े रंग और गुलाल  ";
+        }
+        if(count == 2 ){
+            document.getElementById("lable4").innerHTML="लेकर आए आपके घर में खुशियों की बहार  ";
+            }
+         if(count == 3 ){
+                document.getElementById("lable5").innerHTML=" बने रहे जीवन में सदा गुजिया की मिठास";
+        }
+        if(count == 4 ){
+            document.getElementById("lable6").innerHTML=" मुबारक हो आपको होली का त्योहार";
+    }         
+
+        await sleep(1);
+    }
+    //Message Ends
     username=document.getElementById("text1").value;
     // console.log(username);
     document.getElementById("div1").style.display = "none"; //div1 will be hidden on submit of value
